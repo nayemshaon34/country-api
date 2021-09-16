@@ -1,7 +1,12 @@
+#list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
 .country{
     margin:25px;
     padding: 25px;
     border: 1px solid rebeccapurple;
+    border-radius: 10px;
 }
 h3{
     color: rgb(225, 127, 7);
