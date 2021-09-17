@@ -12,6 +12,7 @@ const getData = countries =>{
     div.classList.add("country"); //class add
     div.innerHTML = `<h3>${country.name}</h3>
     <h4>${country.capital}</h4>
+    <button>Details</button>
     `;
     list.appendChild(div);
     }); 
